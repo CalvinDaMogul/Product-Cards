@@ -22,6 +22,7 @@
     box-shadow: 7px 7px 20px lightgray;
     margin-bottom: 20px;
     width: 250px;
+    
   }
 
   .ptext {
@@ -65,4 +66,8 @@
   .name {
    font-size: 25px;
     font-family: 'Germania One', cursive;
+  }
+
+  .footer {
+    font-size: 13px;
   }
