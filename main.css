@@ -1,7 +1,68 @@
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  }
+
+  body {
+    background-color: rgba(128, 26, 0, 0.795);
+  }
+
+  div {
+    /* border: 1px solid black; */
+    background-color: rgba(128, 26, 0, 0.795);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+  .card {
+    border: 1px solid lightblue;
+    box-shadow: 7px 7px 20px lightgray;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+
+  .ptext {
+    /* border: 1px solid lightblue; */
+    /* flex-flow: row wrap; */
+    /* -moz-text-size-adjust: 14%; */
+    font-family: 'Germania One', cursive;
+  }
+
+  .img {
+    border: 1px solid black;
+    border-style: ridge;  
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  .curve-font {
+    font-family: 'Germania One', cursive;
+    text-align: center;
+    border: 1px solid lightblue;
+    box-shadow: 7px 7px 20px lightgray;
+    margin-bottom: 20px;
   }
   
-  
+  .title {
+    font-size: 30px;
+    font-family: 'Germania One', cursive;
+    text-align: center;
+  }
+
+  .avail {
+    background-color: rgb(51, 48, 48);
+    color: yellow;
+    width: 250px;
+    font-family: 'Germania One', cursive;
+    flex-basis: auto;
+  }
+
+  .name {
+   font-size: 25px;
+    font-family: 'Germania One', cursive;
+  }
