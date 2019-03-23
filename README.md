@@ -15,3 +15,6 @@ in your web browser navigate to 'localhost:5000'
 
 ## Authors
 - Calvin J. Foster
+
+## Example 
+![Alt Text](https://raw.githubusercontent.com/CalvinDaMogul/Product-Cards/master/ProductCard.JPG)
